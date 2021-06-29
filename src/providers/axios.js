@@ -1,4 +1,4 @@
 import axios from 'axios';
 
 axios.defaults.baseURL = 'https://dummyapi.io/data/api/';
-axios.defaults.headers['app-id'] = '60da6d0974202e4d3c022bd7';
+axios.defaults.headers['app-id'] = '60dac6c84736e78c1c37205e';
