@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import useFetch from './hooks/useFetch';
+import Card from './components/Card';
+import Loading from './components/Loading';
 
-function App() {
+export default function App() {
+  const [resource, setResource] = useState('/post');
+
+  const { result, loading, error } = useFetch(resource);
+
+  const getPostsByTag = tag => {
+    setResource(`/tag/${tag}/post`);
+    document.body.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  if (loading) {
+    return <Loading />;
+  }
+
+  if (error) {
+    return <p>Something went wrong :(</p>;
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="feed-container">
+      {/* {JSON.stringify(result.data)} */}
+      {result.data.map(item => (
+        <Card key={item.id} item={item} onClickTag={getPostsByTag} />
+      ))}
     </div>
   );
 }
-
-export default App;
