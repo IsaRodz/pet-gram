@@ -10,7 +10,6 @@ export default function App() {
 
   const getPostsByTag = tag => {
     setResource(`/tag/${tag}/post`);
-    document.body.scrollIntoView({ behavior: 'smooth' });
   };
 
   if (loading) {
