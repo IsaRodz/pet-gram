@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/petgram/static/css/main.b1dbf3ec.chunk.css",
+    "main.js": "/petgram/static/js/main.7a148481.chunk.js",
+    "main.js.map": "/petgram/static/js/main.7a148481.chunk.js.map",
+    "runtime-main.js": "/petgram/static/js/runtime-main.550a9d97.js",
+    "runtime-main.js.map": "/petgram/static/js/runtime-main.550a9d97.js.map",
+    "static/js/2.f3d44034.chunk.js": "/petgram/static/js/2.f3d44034.chunk.js",
+    "static/js/2.f3d44034.chunk.js.map": "/petgram/static/js/2.f3d44034.chunk.js.map",
+    "index.html": "/petgram/index.html",
+    "static/css/main.b1dbf3ec.chunk.css.map": "/petgram/static/css/main.b1dbf3ec.chunk.css.map",
+    "static/js/2.f3d44034.chunk.js.LICENSE.txt": "/petgram/static/js/2.f3d44034.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.550a9d97.js",
+    "static/js/2.f3d44034.chunk.js",
+    "static/css/main.b1dbf3ec.chunk.css",
+    "static/js/main.7a148481.chunk.js"
+  ]
+}
