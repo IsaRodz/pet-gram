@@ -6,7 +6,7 @@ PetGram is a very simple frontend app that simulates a Social network (like Inst
 
 ## Wanna see this project running live?
 
-Visit this url: http://isaroz.github.io/petgram
+Visit this url: https://isarodz.github.io/pet-gram/
 
 ### If you also want to download this project and run it in your local machine, follow these steps:
 
