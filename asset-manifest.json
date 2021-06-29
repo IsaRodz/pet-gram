@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pet-gram/static/css/main.62e5db22.chunk.css",
-    "main.js": "/pet-gram/static/js/main.2f731fd4.chunk.js",
-    "main.js.map": "/pet-gram/static/js/main.2f731fd4.chunk.js.map",
+    "main.js": "/pet-gram/static/js/main.ed0d91d1.chunk.js",
+    "main.js.map": "/pet-gram/static/js/main.ed0d91d1.chunk.js.map",
     "runtime-main.js": "/pet-gram/static/js/runtime-main.a64c17b8.js",
     "runtime-main.js.map": "/pet-gram/static/js/runtime-main.a64c17b8.js.map",
     "static/js/2.ed693b7b.chunk.js": "/pet-gram/static/js/2.ed693b7b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a64c17b8.js",
     "static/js/2.ed693b7b.chunk.js",
     "static/css/main.62e5db22.chunk.css",
-    "static/js/main.2f731fd4.chunk.js"
+    "static/js/main.ed0d91d1.chunk.js"
   ]
 }
