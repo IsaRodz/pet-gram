@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/petgram/static/css/main.62e5db22.chunk.css",
-    "main.js": "/petgram/static/js/main.2f731fd4.chunk.js",
-    "main.js.map": "/petgram/static/js/main.2f731fd4.chunk.js.map",
-    "runtime-main.js": "/petgram/static/js/runtime-main.550a9d97.js",
-    "runtime-main.js.map": "/petgram/static/js/runtime-main.550a9d97.js.map",
-    "static/js/2.ed693b7b.chunk.js": "/petgram/static/js/2.ed693b7b.chunk.js",
-    "static/js/2.ed693b7b.chunk.js.map": "/petgram/static/js/2.ed693b7b.chunk.js.map",
-    "index.html": "/petgram/index.html",
-    "static/css/main.62e5db22.chunk.css.map": "/petgram/static/css/main.62e5db22.chunk.css.map",
-    "static/js/2.ed693b7b.chunk.js.LICENSE.txt": "/petgram/static/js/2.ed693b7b.chunk.js.LICENSE.txt"
+    "main.css": "/pet-gram/static/css/main.62e5db22.chunk.css",
+    "main.js": "/pet-gram/static/js/main.2f731fd4.chunk.js",
+    "main.js.map": "/pet-gram/static/js/main.2f731fd4.chunk.js.map",
+    "runtime-main.js": "/pet-gram/static/js/runtime-main.a64c17b8.js",
+    "runtime-main.js.map": "/pet-gram/static/js/runtime-main.a64c17b8.js.map",
+    "static/js/2.ed693b7b.chunk.js": "/pet-gram/static/js/2.ed693b7b.chunk.js",
+    "static/js/2.ed693b7b.chunk.js.map": "/pet-gram/static/js/2.ed693b7b.chunk.js.map",
+    "index.html": "/pet-gram/index.html",
+    "static/css/main.62e5db22.chunk.css.map": "/pet-gram/static/css/main.62e5db22.chunk.css.map",
+    "static/js/2.ed693b7b.chunk.js.LICENSE.txt": "/pet-gram/static/js/2.ed693b7b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.550a9d97.js",
+    "static/js/runtime-main.a64c17b8.js",
     "static/js/2.ed693b7b.chunk.js",
     "static/css/main.62e5db22.chunk.css",
     "static/js/main.2f731fd4.chunk.js"
