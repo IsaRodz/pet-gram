@@ -2,6 +2,7 @@ import { useState } from 'react';
 import useFetch from './hooks/useFetch';
 import Card from './components/Card';
 import Loading from './components/Loading';
+import UsersAutocomplete from './components/UsersAutocomplete';
 
 export default function App() {
   const [resource, setResource] = useState('/post');
@@ -22,7 +23,7 @@ export default function App() {
 
   return (
     <div className="feed-container">
-      {/* {JSON.stringify(result.data)} */}
+      <UsersAutocomplete onSelect={userId => setResource(`/user/${userId}/post`)} />
       {result.data.map(item => (
         <Card key={item.id} item={item} onClickTag={getPostsByTag} />
       ))}
