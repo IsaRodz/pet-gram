@@ -15,7 +15,10 @@ Visit this url: https://isarodz.github.io/pet-gram/
 - Run `npm install`
 - After all dependencies have been installed, run `npm start` and it should open a live server in the port 3000 automatically
 
-# PetGram
+If you are also interested in mobile apps built with React Native, you can visit this repo:
+https://github.com/IsaRodz/mobile-petgram
+
+
 
 ## De qué se trata este proyecto?
 
@@ -31,3 +34,7 @@ Visita esta url: https://isarodz.github.io/pet-gram/
 - Abre la carpeta raíz en tu terminal
 - Corre `npm install`
 - Luego de haber instalado todas las dependencias, corre `npm start` y esto debería correr un servidor local en el puerto 3000 automaticamente
+
+
+Si te interesan las aplicaciones móviles construidas en React Native, puedes visitar este repo:
+https://github.com/IsaRodz/mobile-petgram
